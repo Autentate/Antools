@@ -1,0 +1,329 @@
+/* GLOBAL */
+
+.container {
+    max-width: 1200px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto; 
+}
+
+body {
+    background-color: #1E252B;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.list-text-unusual {
+    color: rgba(255, 255, 255, 0.78) !important;
+}
+
+/* HEADER */
+
+.header {
+    margin-bottom: 104px;
+}
+
+.container-header {
+    min-height: 74px;
+    display: flex;
+    align-items: center;
+    column-gap: 257px;
+}
+
+.header-logo {
+    display: flex;
+    gap: 21px;
+    align-items: flex-end;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 42px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.buttons-list {
+    display: flex;
+    column-gap: 41px;
+    margin-left: auto;
+}
+
+.buttons-list-item {
+    background-color: #1E252B;
+    color: white;
+}
+
+.item-first {
+    color: rgba(255, 255, 255, 0.78);
+}
+
+
+/* Section: "HERO" */
+
+.section-hero {
+    margin-bottom: 200px;
+}
+
+.section-hero-title {
+    margin-bottom: 30px;
+}
+
+.section-hero-text {
+    margin-bottom: 60px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.section-hero-search {
+    display: flex;
+    column-gap: 111px;
+    margin-bottom: 110px;
+}
+
+.social-list {
+    display: flex;
+    gap: 46px;
+}
+
+/* Section: "POPULAR" */
+
+.container_section-popular {
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-popular-title {
+    margin-bottom: 25px;
+}
+
+.section-popular-text {
+    margin-bottom: 60px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.popular-list {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    column-gap: 25px;
+}
+
+.popular-list-item {
+    padding: 33px 33px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    height: 294px;
+}
+
+.popular-list-item-inner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-height: 66px;
+}
+
+.popular-list-title {
+    padding-bottom: 3px;
+}
+
+.popular-list-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.popular-list-item-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-list-item-btn-inner {
+    display: flex;
+    gap: 25px;
+}
+
+/* Section: "BRAND" */
+
+.container_section-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000;
+    padding: 56px 0;
+    border-radius: 25px;
+}
+
+.section-brand {
+    margin-bottom: 200px;
+}
+
+.section-brand-title {
+    margin-bottom: 55px;
+    color: white;
+}
+
+.brand-list {
+    display: flex;
+    column-gap: 107px;
+}
+
+/* Section: "NEWCOMER" */
+
+.section-newcomer {
+    margin-bottom: 200px;
+}
+
+.container_section-newcomer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-newcomer-title {
+    margin-bottom: 30px;
+}
+.section-newcomer-text {
+    margin-bottom: 60px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.newcomer-list-inner {
+    display: flex;
+    max-width: 600px;
+}
+
+.newcomer-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 25px;
+  row-gap: 50px;
+}
+
+.newcomer-list-item {
+    padding: 28px 22px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+.newcomer-list-item-inner {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    height: 66px;
+}
+
+.newcomer-list-title {
+    padding-bottom: 3px;
+}
+
+.newcomer-list-text {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.newcomer-list-item-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.newcomer-list-item-btn-inner {
+    display: flex;
+    gap: 25px;
+}
+
+/* Section: "TESTIMONIAL" */
+
+.section-testimonial {
+    margin-bottom: 250px;
+}
+
+.section-testimonials-inner {
+    display: flex;
+    gap: 57px;
+    align-items: center;
+}
+
+.section-testimonials-text {
+    color: rgba(255, 255, 255, 0.78);    
+}
+
+/* Section: "JOIN" */
+
+.section-join {
+    margin-bottom: 240px;
+}
+
+.section-join-title {
+    margin-bottom: 25px;
+}
+.section-join-text {
+    margin-bottom: 100px;
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+}
+.section-join-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-join-form {
+    display: flex;
+    gap: 260px;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-bottom: 98px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-footer {
+    display: block;
+}
+
+.footer-copyright {
+    display: block;
+    margin-bottom: 21px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.footer-item-title {
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 115px;
+}
+
+.footer-item-text {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.55);
+}
