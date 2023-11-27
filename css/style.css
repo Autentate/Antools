@@ -49,17 +49,22 @@ a {
     display: flex;
     column-gap: 41px;
     margin-left: auto;
+    align-items: center;
 }
 
-.buttons-list-item {
-    background-color: #1E252B;
+.buttons-list-link {
     color: white;
 }
 
-.item-first {
+.buttons-list-link.link-first {
     color: rgba(255, 255, 255, 0.78);
 }
 
+.buttons-list-item.inner {
+    padding: 12px 28px;
+    background-color: #FF6E30;
+    border-radius: 8px;
+}
 
 /* Section: "HERO" */
 
